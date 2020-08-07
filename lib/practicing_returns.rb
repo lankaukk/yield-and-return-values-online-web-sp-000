@@ -9,7 +9,5 @@ def hello(array)
   end
 end
 
-
-binding.pry
 # where we call the method
 hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
